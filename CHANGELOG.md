@@ -7,6 +7,9 @@ All notable changes to `laravel-highcharts` will be documented in this file.
 ### What's Changed
 
 * Add Laravel 12 support
+* Add PHP 8.4 support
+* Update CI workflow to test all PHP and Laravel version combinations
+* Fix Series data property type mismatch when passing arrays
 
 ## 0.2.0 - 2025-02-07
 
