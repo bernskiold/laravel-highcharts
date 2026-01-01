@@ -2,6 +2,12 @@
 
 All notable changes to `laravel-highcharts` will be documented in this file.
 
+## Unreleased
+
+### What's Changed
+
+* Add Laravel 12 support
+
 ## 0.2.0 - 2025-02-07
 
 ### What's Changed
