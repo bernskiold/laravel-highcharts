@@ -65,7 +65,7 @@ class Series implements Arrayable, Jsonable
      */
     public function data(Collection|array|null $data = null): self
     {
-        $this->data = $data;
+        $this->data = $data === null ? null : ($data instanceof Collection ? $data : collect($data));
 
         return $this;
     }

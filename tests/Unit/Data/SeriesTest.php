@@ -9,7 +9,7 @@ it('can be created with data', function () {
         ['name' => 'Jane', 'y' => 2],
     ]);
 
-    expect($series->data)->toBe([
+    expect($series->data->all())->toBe([
         ['name' => 'John', 'y' => 5],
         ['name' => 'Jane', 'y' => 2],
     ]);
@@ -22,7 +22,7 @@ it('can be created with data points', function () {
         $dataPoint,
     ]);
 
-    expect($series->data)->toBe([
+    expect($series->data->all())->toBe([
         $dataPoint,
     ]);
 });
@@ -45,7 +45,7 @@ it('can set data', function () {
         ['name' => 'Jane', 'y' => 2],
     ]);
 
-    expect($series->data)->toBe([
+    expect($series->data->all())->toBe([
         ['name' => 'John', 'y' => 5],
         ['name' => 'Jane', 'y' => 2],
     ]);
