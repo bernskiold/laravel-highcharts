@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-highcharts` will be documented in this file.
 
+## 0.4.0 - 2026-04-25
+
+### What's Changed
+
+* Support Laravel 11–13 (drop 10) by @ErikBernskiold in https://github.com/bernskiold/laravel-highcharts/pull/6
+
+**Full Changelog**: https://github.com/bernskiold/laravel-highcharts/compare/0.3.0...0.4.0
+
 ## 0.3.0 - 2026-01-01
 
 ### What's Changed
