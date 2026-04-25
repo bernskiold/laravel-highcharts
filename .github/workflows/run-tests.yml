@@ -9,21 +9,21 @@ jobs:
       fail-fast: true
       matrix:
         php: [8.2, 8.3, 8.4]
-        laravel: ['10.*', '11.*', '12.*']
+        laravel: ['11.*', '12.*', '13.*']
         dependency-version: [prefer-stable]
         include:
-          - laravel: '10.*'
-            testbench: '8.*'
-            collision: '^7.0'
           - laravel: '11.*'
             testbench: '9.*'
             collision: '^8.0'
           - laravel: '12.*'
             testbench: '10.*'
             collision: '^8.0'
+          - laravel: '13.*'
+            testbench: '11.*'
+            collision: '^9.0'
         exclude:
-          - php: 8.4
-            laravel: '10.*'
+          - php: 8.2
+            laravel: '13.*'
 
     name: P${{ matrix.php }} - L${{ matrix.laravel }} - ${{ matrix.dependency-version }}
 
