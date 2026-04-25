@@ -20,7 +20,7 @@ jobs:
             collision: '^8.0'
           - laravel: '13.*'
             testbench: '11.*'
-            collision: '^9.0'
+            collision: '^8.0'
         exclude:
           - php: 8.2
             laravel: '13.*'
