@@ -2,6 +2,15 @@
 
 All notable changes to `laravel-highcharts` will be documented in this file.
 
+## 0.4.1 - 2026-11-20
+
+### What's Changed
+
+* Add PHP 8.5 and 8.6 support and drop Laravel 11 by @ErikBernskiold in https://github.com/bernskiold/laravel-highcharts/pull/10
+* Make PHP 8.6 a required part of the test matrix by @ErikBernskiold in https://github.com/bernskiold/laravel-highcharts/pull/11
+
+**Full Changelog**: https://github.com/bernskiold/laravel-highcharts/compare/0.4.0...0.4.1
+
 ## 0.4.0 - 2026-04-25
 
 ### What's Changed
